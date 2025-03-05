@@ -3,7 +3,7 @@ import os
 
 import torch
 
-from modules.letstalk import PixArtTransformer2DModel
+from modules.Letstalk_PixAlpha import PixArtTransformer2DModel
 
 model = PixArtTransformer2DModel.from_config(
     "./xl-2-1024-ms/transformer"
